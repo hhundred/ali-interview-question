@@ -18,8 +18,8 @@ import './list.scss'
     <div className="container">
       <p className="title">1688进货红包</p>
       {data?.length > 0 &&
-        data.map((item) => {
-          return <RedEnvelopeContent data={item}></RedEnvelopeContent>
+        data.map((item,index) => {
+          return <RedEnvelopeContent data={item} key={index}></RedEnvelopeContent>
         })}
     </div>
   );
