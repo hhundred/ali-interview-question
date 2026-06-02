@@ -1,0 +1,41 @@
+// {
+//   // 默认onType类型
+// //   "eslint.run": "onType",
+//   // 这个设置代表哪些文件允许ESLint规则
+//   "eslint.options": {
+//       "extensions": [
+//           ".js",
+//           // ".vue",
+//           ".jsx",
+//           ".tsx"
+//       ]
+//   },
+//   // 这个设置允许你在保存文件时自动修复所有可用的 ESLint 规则问题
+//   "editor.codeActionsOnSave": {
+//       "source.fixAll.eslint": "explicit"
+//   }
+// }
+
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint"],
+  "rules": {
+    "no-unused-vars": "warn"
+  }
+}

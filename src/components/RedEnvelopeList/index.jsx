@@ -15,12 +15,14 @@ import './list.scss'
   }, []);
 
   return (
-    <div className="container">
-      <p className="title">1688进货红包</p>
-      {data?.length > 0 &&
-        data.map((item,index) => {
-          return <RedEnvelopeContent data={item} key={index}></RedEnvelopeContent>
-        })}
+    <div className="box">
+      <div className="container">
+        <p className="title">1688进货红包</p>
+        {data?.length > 0 &&
+          data.map((item,index) => {
+            return <RedEnvelopeContent data={item} key={index}></RedEnvelopeContent>
+          })}
+      </div>
     </div>
   );
 }

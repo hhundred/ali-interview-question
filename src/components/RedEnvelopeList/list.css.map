@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "sources": [
+    "list.scss",
+    "list.css"
+  ],
+  "names": [],
+  "mappings": "AAAA;EACE,aAAA;EACA,mBAAA;EACA,uBAAA;ACCF;;ADCA;EACE,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,gBAAA;EACA,oCAAA;ACEF;ADDE;EACE,YAAA;EACA,eAAA;EACA,gBAAA;ACGJ",
+  "file": "list.css"
+}

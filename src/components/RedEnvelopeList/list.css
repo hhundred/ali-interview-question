@@ -3,15 +3,16 @@
   align-items: center;
   justify-content: center;
 }
-.container{
+
+.container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   overflow: scroll;
   border: 1px solid rgb(208, 208, 208);
-  .title{
-    width: 474px;
-    font-size: 22px;
-    font-weight: 500;
-  }
 }
+.container .title {
+  width: 474px;
+  font-size: 22px;
+  font-weight: 500;
+}/*# sourceMappingURL=list.css.map */
